@@ -1,6 +1,9 @@
 const express = require('express');
 const router = express.Router();
 
+// Get our connection to the database
+const pool = require('../modules/pools');
+
 router.get('/', (req, res) => {
     console.log('In song-router GET to read');
     res.sendStatus(200);
