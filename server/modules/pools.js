@@ -3,7 +3,7 @@ const Pool = pg.pool;
 
 const DATABASE_NAME = 'music_library';
 const config = {
-    databse: DATABASE_NAME, // name of the db to connect to 
+    database: DATABASE_NAME, // name of the db to connect to 
     host: 'localhost',      // where the db is located
     port: 5432,             // the port the db is listening on
     max: 10,                // max number of connections to our pool
